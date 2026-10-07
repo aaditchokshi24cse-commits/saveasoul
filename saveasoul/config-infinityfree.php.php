@@ -1,0 +1,1 @@
+<?php $db_host = "sql306.infinityfree.com"; $db_user = "if0_42959902"; $db_pass = "AaDIT554SG"; $db_name = "if0_42959902_saveasoul"; $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name); if (!$conn) { die("Database connection failed: " . mysqli_connect_error()); } session_start(); ?>
